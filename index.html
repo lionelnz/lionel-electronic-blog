@@ -6,7 +6,6 @@
 	<meta name="viewport" content= "width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-
 <body>
 	
 	<header>
@@ -18,20 +17,14 @@
 		</div>
 	</header>
 
-<main>
-
-	<div class="entitle_text">
-		
+<div class="farmer_box">	
 	<p >
 		Bonjour, je m'appelle LIONEL bienvenue sur mon blog. <br/> Je partage avec vous des expériences dans le monde de l'électricité et de l'électronique.
 	</p>
+</div>	
+<main style="padding-left:100px; padding-right:100px">
 
-	</div>	
-
-	<div style="padding:10px; padding-right:200px; padding-left:200px;">
-		<h1 class="experience_title">ARDUINO</h1>
-				
-			<div class="arduino_intro">
+		<h1>ARDUINO</h1>		
 				<p>
 					Arduino est un petit ordinateur qui peut être programmer facilement pour controller des objets divers en électronique. Vous pouvez controller une LED via un bouton, affiché sur un écran la température, crée un jeu de lumière comme dans les discothèques ou encore réaliser un système donnant accès à un lieu (entrée et sortie) à travers un badge.<br/>Le projet Arduino a débuté à Ivrea, en Italie, en 2005 dans le but de créer un dispositif peu chère qui permettrait de contrôler facilement les projets de conceptions des étudiants. Les fondateurs Massimo Banzi et David Cuartielles ont nommé le projet d'après un bar local appelé Arduino (un prénom italien masculin qui signifie  « ami fort » <br/>Le système Arduino comporte une partie software (logiciel) et une partie hardware (carte électronique). L’interface Arduino s’appelle Arduino Integrated Developement Environment (IDE) et est disponible sur le site officiel d’Arduino <a href="https://www.arduino.cc/en/software/">ici</a> pour Mac, Windows et Linux. L’Arduino est alimenté à travers un cable USB connecté à l’ordinateur mais peut aussi être alimenté via une batterie (une pile).<br/>Le Sketch c’est votre programme et c’est lui qui contrôle le hardware. Arduino ne sait rien faire sans vous, vous devez le dire tout sur tout pour qu’il le fasse. Ce qui est cool c’est qu’une fois le sketch envoyé dans la carte, elle l’enregistre et vous pouvez la déconnecter de l’ordinateur et l’alimenter par une pile. Dès qu’elle sera alimenté votre programme marchera parfaitement.<br/><br/>
 					Ici, on  utilise Arduino pour réaliser quelques projets intéressants que vous pourrez refaire chez vous ! 
@@ -55,10 +48,8 @@
 					</ul>
 				</p>
 			</div>
-
 <!-- //////////////////////////////////////////PROJECT 1/////////////////////////////////////////////////////////////////////////// -->
-
-			<div class="projet_1">
+			<div>
 				<h2>Projet 1 : Pushbutton - controlled led </h2> 
 					<p>
 						C'est un projet simple que l'on peut réaliser facilement. On connecte un bouton poussoir et une LED et on contrôle son état ON et OFF à l'aide d'un boutton poussoir qui joue le rôle d'interrupteur.
@@ -86,11 +77,9 @@
 						<a href="http://designbuildcode.weebly.com/uploads/2/5/7/4/25741451/breeadboard_orig.png" target="_blank"> 
 							ceci 
 						</a>
-
 					<p>
 						Le pin A du bouton poussoir ou pushbutton (peu importe le pin, c’est un composant non polarisé), ici relié au câble vert est connecté au pin 2 d’Arduino via un resistor de 10k ohm. Le pin B est connecté à +5V. La longue patte de la LED (positive wire) est connectée au pin 13 d’Arduino (le pin 13 contient une résistance interne). La petite patte est connectée au GND.
 					</p>
-
 						<img src="Expérience/Arduino/Project 1/Tabcircuit1.png" width="294" height="182" style="border-style:solid; border-width:2px"> 
 						<br/> 
 					</p>
@@ -158,21 +147,13 @@
 
 						<br/>
 					</p>
-					
-
-			</div>
-			<hr>
-
+			</div><hr>
 <!-- ////////////////////////////////////////// PROJET 2 ////////////////////////////////////////////////////////////////////// -->
-
-			<div class="projet_2">
-
+			<div>
 				<h2>Projet 2 : Lighy Dimmer</h2>
-
 					<p>
 						A l'aide d'un potentiomètre, on va faire varier l'éclairage d'une LED. C’est le même effet que l’on retrouve dans les variateurs de lumière. Les potentiomètres sont des résistances variables qui modifie le flux du courant. Dans ce projet on utilise un potentiomètre qui varie de 0 à 50k ohm.
 						<br/><br/>
-
 						<big>
 							<b>
 							Liste des composants
@@ -182,10 +163,8 @@
 						<br/>
 						Tous ce dont vous avez besoin, vous l'avez déjà. Je vous suggère vraiment d'opter pour un kit. En plus celui que je vous propose ne coûtent qu'une vingtaine d'euro.
 						<br/>
-
 						<img src="Expérience/Arduino/Project 2/Componentscopie2.png" width="460" height="315" title="Liste des composants">
 						<br/><br/>
-
 						<big>
 							<b> 
 								Branchement
@@ -195,16 +174,13 @@
 						Insérer le potentiomètre dans le breadboard et connecté le pin centrale au pin A0 de l’Arduino. Connecter le pin gauche / droite (peu importe) à la ligne d’alimentation du breadboard et l’autre pin à la terre (GND).
 						La petite patte de la LED est connecté au GND et la grande est connecté au pin 9 d'Arduino via 2 resistor de 220 ohm.
 						<br/>	
-
 						<img src="Expérience/Arduino/Project 2/Tabcircuit2.png" width="294" height="194" style="border-style:solid; border-width:2px"> 
-						<br/><br/>
-				
+						<br/><br/>				
 						<big>
 							<b>
 							Vérification
 							</b>
-						</big><br/>
-						
+						</big><br/>						
 						<img src="Expérience/Arduino/Project 2/shematicscopie2.png" width="460" height="315" title="Schéma de connexion"> <br/>
 					</p>
 
@@ -273,12 +249,9 @@
 
 						<br/>
 					</p>
-			</div>
-			<hr>
-
+			</div><hr>
 <!-- /////////////////////////////////////////////////////// PROJET 3 //////////////////////////////////////////////////////////// -->
-
-					<div class="projet_3">
+			<div>
 
 				<h2>Projet 3 : Discor strobe light</h2> 
 
@@ -365,14 +338,10 @@
 						<iframe width="560" height="315" src="https://www.youtube.com/embed/E05kR7reyBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						<br/>
 					</p>
-			</div>
-			<hr>
-				
+			</div><hr>		
 <!-- ///////////////////////////////////////////////PROJET 4 ////////////////////////////////////////////////////////////////////// -->
-
-		<div class="projet_4">
+		<div>
 				<h2>Projet 4: LCD Screen Writer</h2> 
-
 					<p>
 						L'écran LCD, quelle invention géniale pour le bidouilleur ! Ils sont utilisés partout, dans les transports en commun, les calculatrices… Le principe est simple, l’écran est constitué de deux couches faites de matières polarisantes avec une solution en crystal liquide entre les deux. Le courant qui passe à travers cette solution génère une image que l’on voit à travers des caractères à l'écran.<br/> 
 						Pour ce projet on utilise un écran LCD à 16 pins avec le driver Hitachi HD44780 pour fonctionner avec l’Arduino <br/>
@@ -465,13 +434,9 @@
 						<iframe width="560" height="315" src="https://www.youtube.com/embed/RTAYTi0BXDI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						<br/>
 					</p>
-		</div>
-					<hr>
-
+		</div><hr>
 <!-- //////////////////////////////////////////PROJET 5//////////////////////////////////////////////////////////////////////////// -->
-
-
-<div class="projet_4">
+		<div>
 				<h2>Projet 5: Wireless ID card entry system</h2> 
 					
 					<p>
@@ -488,7 +453,6 @@
 						<br/>
 						<img src="Expérience/Arduino/Project 6/Components6copie.png" width="460" height="315" title="Liste des composants">
 						<br/>
-
 					<p>	
 						<big>
 							<b> 
@@ -597,7 +561,6 @@
 							        rfid.halt();
 							      } 
 						</textarea><br/><br/>
-
 						<big>
 							<b>
 								Monitor serial
@@ -615,9 +578,7 @@
 						<p>
 							Lorsque vous avez testé le module et relevé le code de la carte. Vous devez chargé le sketch dans lequel vous devez modifié la ligne 11 par le ID de la carte en conservant le O × comme ceci : 
 							<b>{0x43,0x7E,0xA5,0x15,0x8D}</b>
-						</p>
-						
-						
+						</p>					
 						<textarea style="width: 336px; height:257px">
 						 
 						 #include <SPI.h>
@@ -740,13 +701,9 @@
 						<iframe width="560" height="315" src="https://www.youtube.com/embed/Peo10Igtd6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						<br/>
 					</p>
-		</div>
-					<hr>	
-
+		</div><hr>	
 <!-- ///////////////////////////////////////////EXP 2////////////////////////////////////////////////////////////////////////////// -->
-
-<div class="brass_air">
-
+		<div>
 				<h1 class="experience_title">Brasseur d'air</h1>
 
 				<p>
@@ -770,14 +727,8 @@
 
 				Achetez le condensateur de rechange utilisé dans la vidéo <a href="https://www.amazon.fr/Moteur-Polypropyl%C3%A8ne-D%C3%A9marrer-Ex%C3%A9cuter-Condensateur/dp/B01DLSLF10/ref=pd_sbs_1/258-4878816-8702253?pd_rd_w=cchCV&pf_rd_p=cc1ddc45-aafe-4cc5-be1c-84cb4055aee9&pf_rd_r=59QC2BM39MPY1ZQX6XBE&pd_rd_r=f45dbada-ed83-4865-a303-a825daee4018&pd_rd_wg=9c7iv&pd_rd_i=B01DLSLF10&psc=1#customerReviews" target="_blank">ici</a>
 				</p>
-				
-				
-
-	</div>
-		<hr>	
-
+		</div><hr>	
 <!-- //////////////////////////////////////////////////EXP 3/////////////////////////////////////////////////////////////////////// -->
-
 			<div class="gen_solar">
 
 					<h1 class="experience_title">Générateur solaire</h1>
@@ -827,7 +778,6 @@
 							</table>
 						</p>
 			</div>
-
 </main>
 
 	<footer>
@@ -844,7 +794,6 @@
 	  var scrolled = (winScroll / height) * 100;
 	  document.getElementById("mybar").style.width = scrolled + "%";
 }
-
 </script>
 </body>
 </html>

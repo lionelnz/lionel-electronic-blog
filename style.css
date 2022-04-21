@@ -1,6 +1,6 @@
 body {
-  background-color: rgb(251,251,253); font-family: sans-serif;,sans-serif; margin:0px; font-size:20px
-  }  /*body settings design _ AJOUTE D'AUTRES POLICES D'AFFICHAGES EN CAS DE BUG*/
+  background-color: rgb(251,251,253); font-family: sans-serif;,sans-serif; margin:0px; font-size:20px; width: 100%
+  }  /*body settings design _ AJOUTE D'AUTRES POLICES D'AFFICHAGES EN CAS DE BUG*/ 
 
 /* Style the header: fixed position (always stay at the top) */
 .top_picture {
@@ -11,10 +11,11 @@ body {
   background-color: #f1f1f1;
 }
 
+
 /* Introduce myself text - on the top*/
-.entitle_text {
-  text-align:center; font-weight: normal; font-size:16px; margin-top: 80px; 
-   background-color: rgb(0,75,68); color:white; padding:10px; position: auto; font-size:20px
+.farmer_box {
+  text-align:center;
+   background-color: rgb(0,75,68); color:white; font-size:20px; height:100px; padding-top:100px;
    }
 
 /* The progress container (grey background) */
@@ -33,12 +34,11 @@ body {
 
 /* Experience title */
 .experience_title {
-  text-align: center; font-weight:normal; font-size: 40px;} header{font-family: times new roman;
-    }  
+  text-align: center; font-weight:normal; font-size: 40px;}
 
 #measured {
   border-collapse: collapse; 
-  width: 50%; 
+  width: 60%; 
 }
 
 #measured td, #measured th {
