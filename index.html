@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Electroninz</title>
+	<title>ELECTRONINZ</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content= "width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	
 	<header>
 		<div class="top_picture"> 
 			<div style="text-align: center"><img src="onthetop.png" width="262px" height="79px"></div>
@@ -16,14 +15,12 @@
 			</div>
 		</div>
 	</header>
-
 <div class="farmer_box">	
 	<p >
-		Bonjour, je m'appelle LIONEL bienvenue sur mon blog. <br/> Je partage avec vous des expériences dans le monde de l'électricité et de l'électronique.
+		Bienvenue !</br>Ici, je partage avec vous mes réalisations.
 	</p>
 </div>	
 <main style="padding-left:100px; padding-right:100px">
-
 		<h1 class="experience_title">ARDUINO</h1>		
 				<p>
 					Arduino est un petit ordinateur qui peut être programmer facilement pour controller des objets divers en électronique. Vous pouvez controller une LED via un bouton, affiché sur un écran la température, crée un jeu de lumière comme dans les discothèques ou encore réaliser un système donnant accès à un lieu (entrée et sortie) à travers un badge.<br/>Le projet Arduino a débuté à Ivrea, en Italie, en 2005 dans le but de créer un dispositif peu chère qui permettrait de contrôler facilement les projets de conceptions des étudiants. Les fondateurs Massimo Banzi et David Cuartielles ont nommé le projet d'après un bar local appelé Arduino (un prénom italien masculin qui signifie  « ami fort » <br/>Le système Arduino comporte une partie software (logiciel) et une partie hardware (carte électronique). L’interface Arduino s’appelle Arduino Integrated Developement Environment (IDE) et est disponible sur le site officiel d’Arduino <a href="https://www.arduino.cc/en/software/">ici</a> pour Mac, Windows et Linux. L’Arduino est alimenté à travers un cable USB connecté à l’ordinateur mais peut aussi être alimenté via une batterie (une pile).<br/>Le Sketch c’est votre programme et c’est lui qui contrôle le hardware. Arduino ne sait rien faire sans vous, vous devez le dire tout sur tout pour qu’il le fasse. Ce qui est cool c’est qu’une fois le sketch envoyé dans la carte, elle l’enregistre et vous pouvez la déconnecter de l’ordinateur et l’alimenter par une pile. Dès qu’elle sera alimenté votre programme marchera parfaitement.<br/><br/>
@@ -37,19 +34,16 @@
 							<a href="https://www.amazon.com/stores/page/E4CD2702-3533-4B57-8BE2-6786AA74DC08/search?ref_=ast_bln&terms=kit">ici
 							</a>
 						</li>
-
 						<li> 
 							Un ordinateur Windows ou Mac (j'ai un Mac)
 						</li>
-
 						<li> 
 							Le logiciel Arduino pour Mac, Windows, Linux <a href="https://www.arduino.cc/en/software/" target="_blank">ici</a>
 						</li>
 					</ul>
 				</p>
 			</div>
-<!-- //////////////////////////////////////////PROJECT 1/////////////////////////////////////////////////////////////////////////// -->
-			<div>
+			<div> <!--///Projet 1///-->
 				<h2>Projet 1 : Pushbutton - controlled led </h2> 
 					<p>
 						C'est un projet simple que l'on peut réaliser facilement. On connecte un bouton poussoir et une LED et on contrôle son état ON et OFF à l'aide d'un boutton poussoir qui joue le rôle d'interrupteur.
@@ -65,7 +59,6 @@
 						<img src="Expérience/Arduino/Project 1/Components1copie.png" width="460" height="315" title="Liste des composants">
 						<br/>
 					</p>
-
 					<p>
 						<big>
 							<b> 
@@ -111,11 +104,9 @@
 							<b>
 							Sketch
 							</b>
-						</big>
-						<br/>
+						</big><br/>
 						Dans le languge Arduino, les programmes sont appelés sketch. C'est un language similaire au language C++. Voici le sketch nécessaire que vous devrez compiler et envoyer dans la carte Arduino. Pensez toujours à verifier et compiler le code avant de l'envoyer dans la carte. Si votre code contient des erreurs vous verrez des messages d'erreurs en rouge tout en bas. S'il n'y a pas d'erreur dans le code, tout devrait fonctionner normalement.
 					</p>
-
 					<p>
 						<textarea style="width: 336px; height:257px">
 						const int buttonPin = 2; // Pin connected to button
@@ -137,19 +128,15 @@
 						}
 						</textarea>
 					</p>
-
 					<p>
 						<big>
 						<b>	Testing</b>	
 						</big><br/>
-						
 						<iframe width="560" height="315" src="https://www.youtube.com/embed/5iWML2H8dps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 						<br/>
 					</p>
 			</div><hr>
-<!-- ////////////////////////////////////////// PROJET 2 ////////////////////////////////////////////////////////////////////// -->
-			<div>
+			<div> <!--///Projet 2///-->
 				<h2>Projet 2 : Lighy Dimmer</h2>
 					<p>
 						A l'aide d'un potentiomètre, on va faire varier l'éclairage d'une LED. C’est le même effet que l’on retrouve dans les variateurs de lumière. Les potentiomètres sont des résistances variables qui modifie le flux du courant. Dans ce projet on utilise un potentiomètre qui varie de 0 à 50k ohm.
@@ -159,7 +146,6 @@
 							Liste des composants
 							</b>
 						</big>
-
 						<br/>
 						Tous ce dont vous avez besoin, vous l'avez déjà. Je vous suggère vraiment d'opter pour un kit. En plus celui que je vous propose ne coûtent qu'une vingtaine d'euro.
 						<br/>
@@ -183,7 +169,6 @@
 						</big><br/>						
 						<img src="Expérience/Arduino/Project 2/shematicscopie2.png" width="460" height="315" title="Schéma de connexion"> <br/>
 					</p>
-
 					<p>
 						<big>
 						<b>
@@ -193,7 +178,6 @@
 						<br/>
 						Sélectionner bien "Arduino Uno" et le port "dev/cu.usbserial-1420" ou "COM1".
 					</p>
-
 					<p>
 						<big>
 							<b>
@@ -203,7 +187,6 @@
 						<br/>
 						Copiez le programme directement dans la fenêtre d'acceuil d'Arduino.
 					</p> 
-
 					<p>
 						<textarea style="width: 336px; height:257px">
 						const int analogInPin = A0; // Analog input pin connected to the
