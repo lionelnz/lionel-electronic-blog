@@ -19,25 +19,22 @@
 	<p >Bienvenue !</br>Ici, je partage avec vous mes réalisations.</p>
 </div>	
 <main style="padding-left:100px; padding-right:100px">
-		<h1 class="experience_title">ARDUINO</h1>		
-				<p>
-					Arduino est un petit ordinateur qui peut être programmer facilement pour controller des objets divers en électronique. Vous pouvez controller une LED via un bouton, affiché sur un écran la température, crée un jeu de lumière comme dans les discothèques ou encore réaliser un système donnant accès à un lieu (entrée et sortie) à travers un badge.<br/>Le projet Arduino a débuté à Ivrea, en Italie, en 2005 dans le but de créer un dispositif peu chère qui permettrait de contrôler facilement les projets de conceptions des étudiants. Les fondateurs Massimo Banzi et David Cuartielles ont nommé le projet d'après un bar local appelé Arduino (un prénom italien masculin qui signifie  « ami fort » <br/>Le système Arduino comporte une partie software (logiciel) et une partie hardware (carte électronique). L’interface Arduino s’appelle Arduino Integrated Developement Environment (IDE) et est disponible sur le site officiel d’Arduino <a href="https://www.arduino.cc/en/software/">ici</a> pour Mac, Windows et Linux. L’Arduino est alimenté à travers un cable USB connecté à l’ordinateur mais peut aussi être alimenté via une batterie (une pile).<br/>Le Sketch c’est votre programme et c’est lui qui contrôle le hardware. Arduino ne sait rien faire sans vous, vous devez le dire tout sur tout pour qu’il le fasse. Ce qui est cool c’est qu’une fois le sketch envoyé dans la carte, elle l’enregistre et vous pouvez la déconnecter de l’ordinateur et l’alimenter par une pile. Dès qu’elle sera alimenté votre programme marchera parfaitement.<br/><br/>
+			<div> <!--Expérience 1-->
+				<h1 class="experience_title">ARDUINO</h1>		
+				<p>Arduino est un petit ordinateur qui peut être programmer facilement pour controller des objets divers en électronique. Vous pouvez controller une LED via un bouton, affiché sur un écran la température, crée un jeu de lumière comme dans les discothèques ou encore réaliser un système donnant accès à un lieu (entrée et sortie) à travers un badge.<br/>Le projet Arduino a débuté à Ivrea, en Italie, en 2005 dans le but de créer un dispositif peu chère qui permettrait de contrôler facilement les projets de conceptions des étudiants. Les fondateurs Massimo Banzi et David Cuartielles ont nommé le projet d'après un bar local appelé Arduino (un prénom italien masculin qui signifie  « ami fort » <br/>Le système Arduino comporte une partie software (logiciel) et une partie hardware (carte électronique). L’interface Arduino s’appelle Arduino Integrated Developement Environment (IDE) et est disponible sur le site officiel d’Arduino <a href="https://www.arduino.cc/en/software/">ici</a> pour Mac, Windows et Linux. L’Arduino est alimenté à travers un cable USB connecté à l’ordinateur mais peut aussi être alimenté via une batterie (une pile).<br/>Le Sketch c’est votre programme et c’est lui qui contrôle le hardware. Arduino ne sait rien faire sans vous, vous devez le dire tout sur tout pour qu’il le fasse. Ce qui est cool c’est qu’une fois le sketch envoyé dans la carte, elle l’enregistre et vous pouvez la déconnecter de l’ordinateur et l’alimenter par une pile. Dès qu’elle sera alimenté votre programme marchera parfaitement.<br/><br/>
 					Ici, on  utilise Arduino pour réaliser quelques projets intéressants que vous pourrez refaire chez vous ! <br/><br/>Pré-requis: <br/>
 					<ul>
-						<li>
-							Kit de démarrage d'Arduino <a href="https://fr.aliexpress.com/item/1005003738675547.html?spm=a2g0o.productlist.0.0.77e04e86Osq2X0&algo_pvid=d61d0b89-30c4-4ead-8980-38c3dd10139f&algo_exp_id=d61d0b89-30c4-4ead-8980-38c3dd10139f-1&pdp_ext_f=%7B%22sku_id%22%3A%2212000026992864442%22%7D&pdp_pi=-1%3B24.98%3B-1%3B-1%40salePrice%3BEUR%3Bsearch-mainSearch" target="_blank">ici</a>. Je précise que ce n'est pas une carte officielle mais ça ne dérange pas ! Le fonctionnement est le même et pour moins chère. Néanmoins si vous souhaitez acheter le Kit arduino officiel c'est par 
+						<li>Kit de démarrage d'Arduino <a href="https://fr.aliexpress.com/item/1005003738675547.html?spm=a2g0o.productlist.0.0.77e04e86Osq2X0&algo_pvid=d61d0b89-30c4-4ead-8980-38c3dd10139f&algo_exp_id=d61d0b89-30c4-4ead-8980-38c3dd10139f-1&pdp_ext_f=%7B%22sku_id%22%3A%2212000026992864442%22%7D&pdp_pi=-1%3B24.98%3B-1%3B-1%40salePrice%3BEUR%3Bsearch-mainSearch" target="_blank">ici</a>. Je précise que ce n'est pas une carte officielle mais ça ne dérange pas ! Le fonctionnement est le même et pour moins chère. Néanmoins si vous souhaitez acheter le Kit arduino officiel c'est par 
 							<a href="https://www.amazon.com/stores/page/E4CD2702-3533-4B57-8BE2-6786AA74DC08/search?ref_=ast_bln&terms=kit">ici
 							</a>
 						</li>
-						<li> 
-							Un ordinateur Windows ou Mac (j'ai un Mac)
-						</li>
-						<li> 
-							Le logiciel Arduino pour Mac, Windows, Linux <a href="https://www.arduino.cc/en/software/" target="_blank">ici</a>
+						<li>Un ordinateur Windows ou Mac (j'ai un Mac)</li>
+						<li>Le logiciel Arduino pour Mac, Windows, Linux <a href="https://www.arduino.cc/en/software/" target="_blank">ici</a>
 						</li>
 					</ul>
-				</p>
-			<div> <!--///Projet 1///-->
+				</p> 
+			</div>
+			<div> <!--Projet 1-->
 				<h2>Projet 1 : Pushbutton - controlled led </h2> 
 					<p>
 						C'est un projet simple que l'on peut réaliser facilement. On connecte un bouton poussoir et une LED et on contrôle son état ON et OFF à l'aide d'un boutton poussoir qui joue le rôle d'interrupteur.
@@ -92,7 +89,6 @@
 						Ensuite, connectons Arduino à l'ordinateur. Vous devez vérifié que le modèle de carte est bien sélectionné ainsi que le port USB connecté à la carte en allant dans 
 						Tools (outils) > Board (carte) > sélectionner "Arduino Uno" en troisième position. Puis allez dans Tools > Port > sélectionner "dev/cu.usbserial-1420" ou "COM1". 
 					</p>
-
 					<p>
 						<big>
 							<b>
@@ -130,7 +126,7 @@
 						<br/>
 					</p>
 			</div><hr>
-			<div> <!--///Projet 2///-->
+			<div> <!--Projet 2-->
 				<h2>Projet 2 : Lighy Dimmer</h2>
 					<p>
 						A l'aide d'un potentiomètre, on va faire varier l'éclairage d'une LED. C’est le même effet que l’on retrouve dans les variateurs de lumière. Les potentiomètres sont des résistances variables qui modifie le flux du courant. Dans ce projet on utilise un potentiomètre qui varie de 0 à 50k ohm.
@@ -226,12 +222,9 @@
 
 						<br/>
 					</p>
-			</div><hr>
-<!-- /////////////////////////////////////////////////////// PROJET 3 //////////////////////////////////////////////////////////// -->
-			<div>
-
+			</div><hr>		
+			<div> <!--Projet 3-->
 				<h2>Projet 3 : Discor strobe light</h2> 
-
 					<p>
 						Ici, le potentiomètre est utilisé non pas pour gérer l‘intensité de la lumière mais pour gérer la fréquence des flash comme un effet stroboscopique. En tournant le potentiomètre dans un sens on augmente la fréquence des flash et en tournant dans le sens inverse on la réduit.
 						<br/><br/>
@@ -316,396 +309,393 @@
 						<br/>
 					</p>
 			</div><hr>		
-<!-- ///////////////////////////////////////////////PROJET 4 ////////////////////////////////////////////////////////////////////// -->
-		<div>
-				<h2>Projet 4: LCD Screen Writer</h2> 
-					<p>
-						L'écran LCD, quelle invention géniale pour le bidouilleur ! Ils sont utilisés partout, dans les transports en commun, les calculatrices… Le principe est simple, l’écran est constitué de deux couches faites de matières polarisantes avec une solution en crystal liquide entre les deux. Le courant qui passe à travers cette solution génère une image que l’on voit à travers des caractères à l'écran.<br/> 
-						Pour ce projet on utilise un écran LCD à 16 pins avec le driver Hitachi HD44780 pour fonctionner avec l’Arduino <br/>
-						On utilise la librairie LiquidCrystal pour envoyer des caractères à l’écran. Comme vous pouvez le constater l’écran ne se connecte pas directement, il faut souder une « strip » à 16 barres (contenu dans Kit).
-						On aura besoin d'un faire à souder <a href="https://fr.aliexpress.com/item/1005003342310229.html?spm=a2g0o.productlist.0.0.15d15a606ICLT2&algo_pvid=3b00c7ff-f827-4982-a790-afeb09360461&algo_exp_id=3b00c7ff-f827-4982-a790-afeb09360461-10&pdp_ext_f=%7B%22sku_id%22%3A%2212000026594825286%22%7D&pdp_pi=-1%3B12.73%3B-1%3B-1%40salePrice%3BEUR%3Bsearch-mainSearch" target="_blank">ici</a>. Un fer ça chauffe donc cela nécessite des consignes de sécurité. Si vous n’avez jamais soudé et que nous n'êtes pas prêt à commencer, je vous recommande de vous faire aider à cette étape. 
-						<br/><br/>
-						<big>
-							<b>
-							Liste des composants
-							</b>
-						</big>
-						<br/>
-						<img src="Expérience/Arduino/Project 4/Components4copie.png" width="460" height="315" title="Liste des composants">
-						<br/><br/>
-					
-						<big>
-							<b> 
-								Branchement
-							</b>
-						</big> 
-						<br/>
-						Pour la soudure, suivre <a href="https://www.youtube.com/watch?v=uzxw1yl1s_M" target="_blank">ceci</a>. Puis brancher vos composants en respectant les connexions ci dessous.
-						<br/>					
-						<img src="Expérience/Arduino/Project 4/Tabcircuit4.png" width="314" height="482" style="border-style:solid; border-width:2px"> 
-						<br/><br/> 
-				
-						<big>
-							<b>
-							Vérification
-							</b>
-						</big>
-						<br/>
-						<img src="Expérience/Arduino/Project 4/Shematics4copie.png" width="460" height="315" title="Schéma de connexion"> <br/><br/>
-						<big>
-							<b>
-							Sketch
-							</b>
-						</big>
-						<br/>
-						Si tout fonctionne correctement, le texte affiché doit être "Arduino Sketch", pour le modifier rendez-vous à la ligne 9 et modifier par votre propore texte. De plus ce sketch est déjà disponible dans File > Example > LiquidCrystal mais il faut modifier la ligne 4, ce sont les pin utilisés de la carte où le branchement a été fait. Là vous mettez: "LiquidCrystal lcd(7, 8, 9, 10, 11, 12)" <br/>
-						<textarea style="width: 336px; height:257px">
-						// Include the library code
-							   #include <LiquidCrystal.h>
-							   // Initialize the library with the numbers of the interface pins
-							LiquidCrystal lcd(7, 8, 9, 10, 11, 12);
-							   void setup() {
-							     // Set up the LCD's number of columns and rows
-							     lcd.begin(16, 2);
-							     // Print a message to the LCD
-							lcd.print("Arduino Sketch"); delay(1000);
-							}
-							   void loop() {
-							     // Scroll 13 positions (string length) to the left
-							     // to move it offscreen left
-							     for (int positionCounter = 0; positionCounter < 13;
-							   positionCounter++) {
-							       // Scroll one position left
-							       lcd.scrollDisplayLeft();
-							       // Wait a bit
-							       delay(150);}
-							       
-							 // Scroll 29 positions (string length + display length) to the right // to move it offscreen right
-							for (int positionCounter = 0; positionCounter < 29;
-							positionCounter++) {
-							    // Scroll one position right
-							    lcd.scrollDisplayRight();
-							    // Wait a bit
-							    delay(150);
-							}
-							// Scroll 16 positions (display length + string length) to the left // to move it back to center
-							for (int positionCounter = 0; positionCounter < 16;
-							positionCounter++) {
-							    // Scroll one position left
-							    lcd.scrollDisplayLeft();
-							    // Wait a bit
-							    delay(150);
-							}
-							  // Delay at the end of the full loop
-							  delay(1000);
-							}
-						</textarea>
-					</p>
-					<p>
-						<big>
-						<b>			
-						Testing
-						</b>	
-						</big>
-						<br/>
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/RTAYTi0BXDI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-						<br/>
-					</p>
-		</div><hr>
-<!-- //////////////////////////////////////////PROJET 5//////////////////////////////////////////////////////////////////////////// -->
-		<div>
-				<h2>Projet 5: Wireless ID card entry system</h2> 
-					
-					<p>
-						Dans ce projet, on utilise la radio fréquence identification (RFID) pour réaliser un système qui en badgant  une carte autorise ou interdit l'accès d'un lieu. Cette technologie est utilisée à travers les portes d'entrées donnant accès aux immeubles d'habitations ou entreprises… Lorsque vous avez recours à un badge ou une carte d'accès vous utilisez la technologie RFID. Le badge que vous utilisez pour entrer dans votre immeuble, ouvrir un portique ou une barrière contient un code unique qui est lue par un lecteur RFID et actionne un moteur ou coupe le courant dans le cas de système à électroaimant. 
-					</p>
-
-						<big>
-							<b>
-							Liste des composants
-							</b>
-						</big>
-						<br/>
-						Le piezo (petit cylindre noir au centre) est un haut parleur basic qui émet un sons sous une impulsion de courant très brève. Dans ce projet, le piezo et les LEDS permettent d’émettre des signaux relatif à l'état de la carte présentée au lecteur à savoir la LED jaune signifie que l'ID de la carte est reconnu par le lecteur donc l'utilisateur peut accéder au système et la LED rouge signifie donc que l'ID n'est pas reconnu. Le piezo lui, va émettre des sons relatifs à la carte présentée donc suivant la couleur des LEDS.
-						<br/>
-						<img src="Expérience/Arduino/Project 6/Components6copie.png" width="460" height="315" title="Liste des composants">
-						<br/>
-					<p>	
-						<big>
-							<b> 
-								Branchement
-							</b>
-						</big> 
-						<br/>
-							Ici encore vous aurez recours à souder le module RFID. Il me manquait une trosième main ajusté à une loupe que vous pourrez trouver facilement sur internet. La soudure m'a pris du temps car je n'avais pas ces éléments. Donc ne faites pas comme moi équipez-vous équipez-vous équipez-vous!
+			<div> <!--Projet 4-->
+					<h2>Projet 4: LCD Screen Writer</h2> 
+						<p>
+							L'écran LCD, quelle invention géniale pour le bidouilleur ! Ils sont utilisés partout, dans les transports en commun, les calculatrices… Le principe est simple, l’écran est constitué de deux couches faites de matières polarisantes avec une solution en crystal liquide entre les deux. Le courant qui passe à travers cette solution génère une image que l’on voit à travers des caractères à l'écran.<br/> 
+							Pour ce projet on utilise un écran LCD à 16 pins avec le driver Hitachi HD44780 pour fonctionner avec l’Arduino <br/>
+							On utilise la librairie LiquidCrystal pour envoyer des caractères à l’écran. Comme vous pouvez le constater l’écran ne se connecte pas directement, il faut souder une « strip » à 16 barres (contenu dans Kit).
+							On aura besoin d'un faire à souder <a href="https://fr.aliexpress.com/item/1005003342310229.html?spm=a2g0o.productlist.0.0.15d15a606ICLT2&algo_pvid=3b00c7ff-f827-4982-a790-afeb09360461&algo_exp_id=3b00c7ff-f827-4982-a790-afeb09360461-10&pdp_ext_f=%7B%22sku_id%22%3A%2212000026594825286%22%7D&pdp_pi=-1%3B12.73%3B-1%3B-1%40salePrice%3BEUR%3Bsearch-mainSearch" target="_blank">ici</a>. Un fer ça chauffe donc cela nécessite des consignes de sécurité. Si vous n’avez jamais soudé et que nous n'êtes pas prêt à commencer, je vous recommande de vous faire aider à cette étape. 
+							<br/><br/>
+							<big>
+								<b>
+								Liste des composants
+								</b>
+							</big>
 							<br/>
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/w0snoFeTtFk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					</p>
-
-						<img src="Expérience/Arduino/Project 6/Tabcircuit6.png" width="313" height="576" style="border-style:solid; border-width:2px"> 
-						<br/><br/> 
+							<img src="Expérience/Arduino/Project 4/Components4copie.png" width="460" height="315" title="Liste des composants">
+							<br/><br/>
 						
-						<big>
-							<b>
-							Vérification
-							</b>
-						</big>
-						<br/>
-						<img src="Expérience/Arduino/Project 6/Shematics6copie.png" width="460" height="315" title="Schéma de connexion"><br/>
-						Une fois votre branchement effectué, vous devez vous assurer que votre lecteur RFID fonctionnement correctement. Pour celà vous devez charger ce sketch dans votre carte Arduino. <br/> Procédez de cette façon :	
-						<ol>
-							<li>
-								 Chargez le sketch
-							</li>
-							<li>
-								Ouvrez Arduino Serial Monitor dans Tools > Serial monitor
-							</li>
-							<li>
-								Passez votre carte proche du module RFID, des informations devraient apparaître sur l’écran.
-							</li>
-							<li>
-							Relevez le numéro <b>Hex</b> tout en bas de votre carte, dans notre cas c'est le "43,7E,A5,15,8D" il vous servira pour la suite du projet.
-							</li>
-						</ol>
-
+							<big>
+								<b> 
+									Branchement
+								</b>
+							</big> 
+							<br/>
+							Pour la soudure, suivre <a href="https://www.youtube.com/watch?v=uzxw1yl1s_M" target="_blank">ceci</a>. Puis brancher vos composants en respectant les connexions ci dessous.
+							<br/>					
+							<img src="Expérience/Arduino/Project 4/Tabcircuit4.png" width="314" height="482" style="border-style:solid; border-width:2px"> 
+							<br/><br/> 
+					
+							<big>
+								<b>
+								Vérification
+								</b>
+							</big>
+							<br/>
+							<img src="Expérience/Arduino/Project 4/Shematics4copie.png" width="460" height="315" title="Schéma de connexion"> <br/><br/>
+							<big>
+								<b>
+								Sketch
+								</b>
+							</big>
+							<br/>
+							Si tout fonctionne correctement, le texte affiché doit être "Arduino Sketch", pour le modifier rendez-vous à la ligne 9 et modifier par votre propore texte. De plus ce sketch est déjà disponible dans File > Example > LiquidCrystal mais il faut modifier la ligne 4, ce sont les pin utilisés de la carte où le branchement a été fait. Là vous mettez: "LiquidCrystal lcd(7, 8, 9, 10, 11, 12)" <br/>
 							<textarea style="width: 336px; height:257px">
-						// RFID Library Created by Miguel Balboa (circuitito.com)
-							#include <SPI.h>
-							#include <RFID.h>
-							#define SS_PIN 10
-							#define RST_PIN 9
-							RFID rfid(SS_PIN, RST_PIN);
-							// Setup variables
-							int serNum0;
-							int serNum1;
-							int serNum2;
-							int serNum3;
-							int serNum4;
-							void setup() {
-							  Serial.begin(9600);
-							  SPI.begin();
-							  rfid.init();
+							// Include the library code
+								   #include <LiquidCrystal.h>
+								   // Initialize the library with the numbers of the interface pins
+								LiquidCrystal lcd(7, 8, 9, 10, 11, 12);
+								   void setup() {
+								     // Set up the LCD's number of columns and rows
+								     lcd.begin(16, 2);
+								     // Print a message to the LCD
+								lcd.print("Arduino Sketch"); delay(1000);
+								}
+								   void loop() {
+								     // Scroll 13 positions (string length) to the left
+								     // to move it offscreen left
+								     for (int positionCounter = 0; positionCounter < 13;
+								   positionCounter++) {
+								       // Scroll one position left
+								       lcd.scrollDisplayLeft();
+								       // Wait a bit
+								       delay(150);}
+								       
+								 // Scroll 29 positions (string length + display length) to the right // to move it offscreen right
+								for (int positionCounter = 0; positionCounter < 29;
+								positionCounter++) {
+								    // Scroll one position right
+								    lcd.scrollDisplayRight();
+								    // Wait a bit
+								    delay(150);
+								}
+								// Scroll 16 positions (display length + string length) to the left // to move it back to center
+								for (int positionCounter = 0; positionCounter < 16;
+								positionCounter++) {
+								    // Scroll one position left
+								    lcd.scrollDisplayLeft();
+								    // Wait a bit
+								    delay(150);
+								}
+								  // Delay at the end of the full loop
+								  delay(1000);
+								}
+							</textarea>
+						</p>
+						<p>
+							<big>
+							<b>			
+							Testing
+							</b>	
+							</big>
+							<br/>
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/RTAYTi0BXDI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<br/>
+						</p>
+			</div><hr>
+			<div> <!--Projet 5-->
+					<h2>Projet 5: Wireless ID card entry system</h2> 
+						
+						<p>
+							Dans ce projet, on utilise la radio fréquence identification (RFID) pour réaliser un système qui en badgant  une carte autorise ou interdit l'accès d'un lieu. Cette technologie est utilisée à travers les portes d'entrées donnant accès aux immeubles d'habitations ou entreprises… Lorsque vous avez recours à un badge ou une carte d'accès vous utilisez la technologie RFID. Le badge que vous utilisez pour entrer dans votre immeuble, ouvrir un portique ou une barrière contient un code unique qui est lue par un lecteur RFID et actionne un moteur ou coupe le courant dans le cas de système à électroaimant. 
+						</p>
+
+							<big>
+								<b>
+								Liste des composants
+								</b>
+							</big>
+							<br/>
+							Le piezo (petit cylindre noir au centre) est un haut parleur basic qui émet un sons sous une impulsion de courant très brève. Dans ce projet, le piezo et les LEDS permettent d’émettre des signaux relatif à l'état de la carte présentée au lecteur à savoir la LED jaune signifie que l'ID de la carte est reconnu par le lecteur donc l'utilisateur peut accéder au système et la LED rouge signifie donc que l'ID n'est pas reconnu. Le piezo lui, va émettre des sons relatifs à la carte présentée donc suivant la couleur des LEDS.
+							<br/>
+							<img src="Expérience/Arduino/Project 6/Components6copie.png" width="460" height="315" title="Liste des composants">
+							<br/>
+						<p>	
+							<big>
+								<b> 
+									Branchement
+								</b>
+							</big> 
+							<br/>
+								Ici encore vous aurez recours à souder le module RFID. Il me manquait une trosième main ajusté à une loupe que vous pourrez trouver facilement sur internet. La soudure m'a pris du temps car je n'avais pas ces éléments. Donc ne faites pas comme moi équipez-vous équipez-vous équipez-vous!
+								<br/>
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/w0snoFeTtFk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</p>
+
+							<img src="Expérience/Arduino/Project 6/Tabcircuit6.png" width="313" height="576" style="border-style:solid; border-width:2px"> 
+							<br/><br/> 
+							
+							<big>
+								<b>
+								Vérification
+								</b>
+							</big>
+							<br/>
+							<img src="Expérience/Arduino/Project 6/Shematics6copie.png" width="460" height="315" title="Schéma de connexion"><br/>
+							Une fois votre branchement effectué, vous devez vous assurer que votre lecteur RFID fonctionnement correctement. Pour celà vous devez charger ce sketch dans votre carte Arduino. <br/> Procédez de cette façon :	
+							<ol>
+								<li>
+									 Chargez le sketch
+								</li>
+								<li>
+									Ouvrez Arduino Serial Monitor dans Tools > Serial monitor
+								</li>
+								<li>
+									Passez votre carte proche du module RFID, des informations devraient apparaître sur l’écran.
+								</li>
+								<li>
+								Relevez le numéro <b>Hex</b> tout en bas de votre carte, dans notre cas c'est le "43,7E,A5,15,8D" il vous servira pour la suite du projet.
+								</li>
+							</ol>
+
+								<textarea style="width: 336px; height:257px">
+							// RFID Library Created by Miguel Balboa (circuitito.com)
+								#include <SPI.h>
+								#include <RFID.h>
+								#define SS_PIN 10
+								#define RST_PIN 9
+								RFID rfid(SS_PIN, RST_PIN);
+								// Setup variables
+								int serNum0;
+								int serNum1;
+								int serNum2;
+								int serNum3;
+								int serNum4;
+								void setup() {
+								  Serial.begin(9600);
+								  SPI.begin();
+								  rfid.init();
+								}
+								void loop() { // This loop looks for a card(s) to read
+								  if (rfid.isCard()) {
+								    if (rfid.readCardSerial()) {
+								      if (rfid.serNum[0] != serNum0
+								          && rfid.serNum[1] != serNum1
+								          && rfid.serNum[2] != serNum2
+								          && rfid.serNum[3] != serNum3
+								          && rfid.serNum[4] != serNum4
+								){
+								        // When a card is found, the following code will run
+								        Serial.println(" ");
+								        Serial.println("Card found");
+								        serNum0 = rfid.serNum[0];
+								        serNum1 = rfid.serNum[1];
+								        serNum2 = rfid.serNum[2];
+								        serNum3 = rfid.serNum[3];
+								        serNum4 = rfid.serNum[4];
+								        // Print the card ID to the Serial Monitor of the IDE
+								        Serial.println("Cardnumber:");
+								        Serial.print("Dec: ");
+								        Serial.print(rfid.serNum[0], DEC);
+								        Serial.print(", ");
+								        Serial.print(rfid.serNum[1], DEC);
+								        Serial.print(", ");
+								        Serial.print(rfid.serNum[2], DEC);
+								        Serial.print(", ");
+								        Serial.print(rfid.serNum[3], DEC);
+								        Serial.print(", ");
+								        ////
+								        
+								        Serial.print(rfid.serNum[4], DEC);
+								        Serial.println(" ");
+								        Serial.print("Hex: ");
+								        Serial.print(rfid.serNum[0], HEX);
+								        Serial.print(", ");
+								        Serial.print(rfid.serNum[1], HEX);
+								        Serial.print(", ");
+								        Serial.print(rfid.serNum[2], HEX);
+								        Serial.print(", ");
+								        Serial.print(rfid.serNum[3], HEX);
+								        Serial.print(", ");
+								        Serial.print(rfid.serNum[4], HEX);
+								        Serial.println(" ");
+								      } else {
+								        // If the ID matches, write a dot to the Serial Monitor
+								        Serial.print(".");
+								      } 
+								      }
+								      }
+								        rfid.halt();
+								      } 
+							</textarea><br/><br/>
+							<big>
+								<b>
+									Monitor serial
+								</b>
+							</big><br/>
+
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/26Uyfbow5RQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <br/><br/>
+
+							<big>
+								<b>
+								Sketch
+								</b>
+							</big>
+
+							<p>
+								Lorsque vous avez testé le module et relevé le code de la carte. Vous devez chargé le sketch dans lequel vous devez modifié la ligne 11 par le ID de la carte en conservant le O × comme ceci : 
+								<b>{0x43,0x7E,0xA5,0x15,0x8D}</b>
+							</p>					
+							<textarea style="width: 336px; height:257px">
+							 
+							 #include <SPI.h>
+							   #include <RFID.h>
+							   #include <Servo.h>
+							   #include "pitches.h"
+							   #include <Wire.h>
+							   
+							   RFID rfid(10, 5); // Define the RFID
+							   
+							   // Replace this with the code from your card in hex form
+							  byte card[5] = {0x43,0x7E,0xA5,0x15,0x8D}; // * LIGNE 8 *
+							// List any other codes for cards with access here
+
+							   byte serNum[5];
+							   byte data[5];
+							   
+							   // Define the melodies for successful access and denied access
+							   int access_melody[] = {NOTE_G4, 0, NOTE_A4, 0, NOTE_B4, 0, NOTE_A4,
+							   0, NOTE_B4, 0, NOTE_C5, 0};
+							   int access_noteDurations[] = {8, 8, 8, 8, 8, 4, 8, 8, 8, 8, 8, 4};
+							   int fail_melody[] = {NOTE_G2, 0, NOTE_F2, 0, NOTE_D2, 0};
+							   int fail_noteDurations[] = {8, 8, 8, 8, 8, 4};
+							   
+							   int LED_access = 2;   // Pin connected to green LED
+							   int LED_intruder = 3; // Pin connected to red LED
+							   int speaker_pin = 8;  // Pin connected to piezo buzzer
+							   int servoPin = 9;     // Pin connected to servo
+							   Servo doorLock; // Define the servomotor
+							   
+							   void setup() {
+							     doorLock.attach(servoPin); // Set servo as a pin
+							     Serial.begin(9600); // Start serial communication
+
+							     ////////
+
+							  SPI.begin(); // Start serial communication between the RFID and PC
+							  rfid.init(); // Initialize the RFID
+							  Serial.println("Arduino card reader");
+							  delay(1000);
+							  pinMode(LED_access, OUTPUT);
+							  pinMode(LED_intruder, OUTPUT);
+							  pinMode(speaker_pin, OUTPUT);
+							  pinMode(servoPin, OUTPUT);
 							}
-							void loop() { // This loop looks for a card(s) to read
+							void loop() { // Create a variable for each user
+							  boolean card_card = true; // Define your card
 							  if (rfid.isCard()) {
 							    if (rfid.readCardSerial()) {
-							      if (rfid.serNum[0] != serNum0
-							          && rfid.serNum[1] != serNum1
-							          && rfid.serNum[2] != serNum2
-							          && rfid.serNum[3] != serNum3
-							          && rfid.serNum[4] != serNum4
-							){
-							        // When a card is found, the following code will run
-							        Serial.println(" ");
-							        Serial.println("Card found");
-							        serNum0 = rfid.serNum[0];
-							        serNum1 = rfid.serNum[1];
-							        serNum2 = rfid.serNum[2];
-							        serNum3 = rfid.serNum[3];
-							        serNum4 = rfid.serNum[4];
-							        // Print the card ID to the Serial Monitor of the IDE
-							        Serial.println("Cardnumber:");
-							        Serial.print("Dec: ");
-							        Serial.print(rfid.serNum[0], DEC);
-							        Serial.print(", ");
-							        Serial.print(rfid.serNum[1], DEC);
-							        Serial.print(", ");
-							        Serial.print(rfid.serNum[2], DEC);
-							        Serial.print(", ");
-							        Serial.print(rfid.serNum[3], DEC);
-							        Serial.print(", ");
-							        ////
-							        
-							        Serial.print(rfid.serNum[4], DEC);
-							        Serial.println(" ");
-							        Serial.print("Hex: ");
-							        Serial.print(rfid.serNum[0], HEX);
-							        Serial.print(", ");
-							        Serial.print(rfid.serNum[1], HEX);
-							        Serial.print(", ");
-							        Serial.print(rfid.serNum[2], HEX);
-							        Serial.print(", ");
-							        Serial.print(rfid.serNum[3], HEX);
-							        Serial.print(", ");
-							        Serial.print(rfid.serNum[4], HEX);
-							        Serial.println(" ");
-							      } else {
-							        // If the ID matches, write a dot to the Serial Monitor
-							        Serial.print(".");
-							      } 
+							      delay(1000);
+							      data[0] = rfid.serNum[0];
+							      data[1] = rfid.serNum[1];
+							      data[2] = rfid.serNum[2];
+							      data[3] = rfid.serNum[3];
+							      data[4] = rfid.serNum[4];
+							    }
+							    Serial.print("Card found - code:");
+							    for (int i = 0; i < 5; i++) {
+							      // If it is not your card, the card is considered false
+							      if (data[i] != card[i]) card_card = false;
+							    }
+							    /* CODE ADD HERE FOR SECOND CARD
+							    if (card_card== false) {
+							      card_card = true;
+							      for (int i = 0; i < 5; i++) {
+							        // If it is not your card, the card is considered false
+							        if (data[i] != card2[i]) card_card= false;
+							     CODE ADD HERE FOR SECOND CARD 
 							      }
+							    } */
+							    Serial.println();
+							    if (card_card) { // A card with access permission is found
+							      Serial.println("Hello!"); // Print to Serial Monitor
+							      for (int i = 0; i < 12; i++) { // Play welcome music
+							        int access_noteDuration = 1000 / access_noteDurations[i];
+							        tone(speaker_pin, access_melody[i], access_noteDuration);
+							        int access_pauseBetweenNotes = access_noteDuration * 1.30;
+							        delay(access_pauseBetweenNotes);
+							        noTone(speaker_pin);
 							      }
-							        rfid.halt();
-							      } 
-						</textarea><br/><br/>
-						<big>
-							<b>
-								Monitor serial
-							</b>
-						</big><br/>
-
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/26Uyfbow5RQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <br/><br/>
-
-						<big>
-							<b>
-							Sketch
-							</b>
-						</big>
+							    }
+							    else { // If the card is not recognized
+							      // Print message to Serial Monitor
+							      Serial.println("Card not recognized! Contact administrator!");
+							      digitalWrite(LED_intruder, HIGH); // Turn on red LED
+							      for (int i = 0; i < 6; i++) { // Play intruder melody
+							        int fail_noteDuration = 1000 / fail_noteDurations[i];
+							        tone(speaker_pin, fail_melody[i], fail_noteDuration);
+							        int fail_pauseBetweenNotes = fail_noteDuration * 1.30;
+							        delay(fail_pauseBetweenNotes);
+							        noTone(speaker_pin);
+							      }
+							      delay(1000);
+							      digitalWrite(LED_intruder, LOW); // Turn off red LED
+							    }
+							    ////
+							        if (card_card) { // Add other users with access here
+							      Serial.println("Access granted.......Welcome!");
+							      digitalWrite(LED_access, HIGH); // Turn on green LED
+							      doorLock.write(180); // Turn servo 180 degrees
+							      delay(5000); // Wait for 5 seconds
+							      doorLock.write(0); // Turn servo back to 0 degrees
+							      digitalWrite(LED_access, LOW); // Turn off green LED
+							    }
+							    Serial.println();
+							    delay(500);
+							    rfid.halt();
+							} 
+							}
+							</textarea> <br/>
+						</p>
 
 						<p>
-							Lorsque vous avez testé le module et relevé le code de la carte. Vous devez chargé le sketch dans lequel vous devez modifié la ligne 11 par le ID de la carte en conservant le O × comme ceci : 
-							<b>{0x43,0x7E,0xA5,0x15,0x8D}</b>
-						</p>					
-						<textarea style="width: 336px; height:257px">
-						 
-						 #include <SPI.h>
-						   #include <RFID.h>
-						   #include <Servo.h>
-						   #include "pitches.h"
-						   #include <Wire.h>
-						   
-						   RFID rfid(10, 5); // Define the RFID
-						   
-						   // Replace this with the code from your card in hex form
-						  byte card[5] = {0x43,0x7E,0xA5,0x15,0x8D}; // * LIGNE 8 *
-						// List any other codes for cards with access here
-
-						   byte serNum[5];
-						   byte data[5];
-						   
-						   // Define the melodies for successful access and denied access
-						   int access_melody[] = {NOTE_G4, 0, NOTE_A4, 0, NOTE_B4, 0, NOTE_A4,
-						   0, NOTE_B4, 0, NOTE_C5, 0};
-						   int access_noteDurations[] = {8, 8, 8, 8, 8, 4, 8, 8, 8, 8, 8, 4};
-						   int fail_melody[] = {NOTE_G2, 0, NOTE_F2, 0, NOTE_D2, 0};
-						   int fail_noteDurations[] = {8, 8, 8, 8, 8, 4};
-						   
-						   int LED_access = 2;   // Pin connected to green LED
-						   int LED_intruder = 3; // Pin connected to red LED
-						   int speaker_pin = 8;  // Pin connected to piezo buzzer
-						   int servoPin = 9;     // Pin connected to servo
-						   Servo doorLock; // Define the servomotor
-						   
-						   void setup() {
-						     doorLock.attach(servoPin); // Set servo as a pin
-						     Serial.begin(9600); // Start serial communication
-
-						     ////////
-
-						  SPI.begin(); // Start serial communication between the RFID and PC
-						  rfid.init(); // Initialize the RFID
-						  Serial.println("Arduino card reader");
-						  delay(1000);
-						  pinMode(LED_access, OUTPUT);
-						  pinMode(LED_intruder, OUTPUT);
-						  pinMode(speaker_pin, OUTPUT);
-						  pinMode(servoPin, OUTPUT);
-						}
-						void loop() { // Create a variable for each user
-						  boolean card_card = true; // Define your card
-						  if (rfid.isCard()) {
-						    if (rfid.readCardSerial()) {
-						      delay(1000);
-						      data[0] = rfid.serNum[0];
-						      data[1] = rfid.serNum[1];
-						      data[2] = rfid.serNum[2];
-						      data[3] = rfid.serNum[3];
-						      data[4] = rfid.serNum[4];
-						    }
-						    Serial.print("Card found - code:");
-						    for (int i = 0; i < 5; i++) {
-						      // If it is not your card, the card is considered false
-						      if (data[i] != card[i]) card_card = false;
-						    }
-						    /* CODE ADD HERE FOR SECOND CARD
-						    if (card_card== false) {
-						      card_card = true;
-						      for (int i = 0; i < 5; i++) {
-						        // If it is not your card, the card is considered false
-						        if (data[i] != card2[i]) card_card= false;
-						     CODE ADD HERE FOR SECOND CARD 
-						      }
-						    } */
-						    Serial.println();
-						    if (card_card) { // A card with access permission is found
-						      Serial.println("Hello!"); // Print to Serial Monitor
-						      for (int i = 0; i < 12; i++) { // Play welcome music
-						        int access_noteDuration = 1000 / access_noteDurations[i];
-						        tone(speaker_pin, access_melody[i], access_noteDuration);
-						        int access_pauseBetweenNotes = access_noteDuration * 1.30;
-						        delay(access_pauseBetweenNotes);
-						        noTone(speaker_pin);
-						      }
-						    }
-						    else { // If the card is not recognized
-						      // Print message to Serial Monitor
-						      Serial.println("Card not recognized! Contact administrator!");
-						      digitalWrite(LED_intruder, HIGH); // Turn on red LED
-						      for (int i = 0; i < 6; i++) { // Play intruder melody
-						        int fail_noteDuration = 1000 / fail_noteDurations[i];
-						        tone(speaker_pin, fail_melody[i], fail_noteDuration);
-						        int fail_pauseBetweenNotes = fail_noteDuration * 1.30;
-						        delay(fail_pauseBetweenNotes);
-						        noTone(speaker_pin);
-						      }
-						      delay(1000);
-						      digitalWrite(LED_intruder, LOW); // Turn off red LED
-						    }
-						    ////
-						        if (card_card) { // Add other users with access here
-						      Serial.println("Access granted.......Welcome!");
-						      digitalWrite(LED_access, HIGH); // Turn on green LED
-						      doorLock.write(180); // Turn servo 180 degrees
-						      delay(5000); // Wait for 5 seconds
-						      doorLock.write(0); // Turn servo back to 0 degrees
-						      digitalWrite(LED_access, LOW); // Turn off green LED
-						    }
-						    Serial.println();
-						    delay(500);
-						    rfid.halt();
-						} 
-						}
-						</textarea> <br/>
-					</p>
+							<big>
+							<b>			
+							Testing
+							</b>	
+							</big>
+							<br/>
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/Peo10Igtd6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<br/>
+						</p>
+			</div><hr>	
+			<div> <!--Expérience 2-->
+					<h1 class="experience_title">Brasseur d'air</h1>
 
 					<p>
-						<big>
-						<b>			
-						Testing
-						</b>	
-						</big>
-						<br/>
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/Peo10Igtd6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-						<br/>
+						L’été approche et ce sera bientôt l’heure de sortir les brasseurs d’airs.
+					Il se peut que le vôtre soit tombé en panne puis que vous l’avez jetté ou rangé dans votre garage en envisageant d’acheter un neuf. Dans cette expérience j’analyse un problème récurrent qui peut arriver dans un brasseur d’air. Il se peut que le vôtre ait le même problème. 
+					Dans ce cas vous auriez peut être la possibilité de faire quelques euros d’économie en suivant attentivement les instructions dans ce tutoriel. 
 					</p>
-		</div><hr>	
-<!-- ///////////////////////////////////////////EXP 2////////////////////////////////////////////////////////////////////////////// -->
-		<div>
-				<h1 class="experience_title">Brasseur d'air</h1>
 
-				<p>
-					L’été approche et ce sera bientôt l’heure de sortir les brasseurs d’airs.
-				Il se peut que le vôtre soit tombé en panne puis que vous l’avez jetté ou rangé dans votre garage en envisageant d’acheter un neuf. Dans cette expérience j’analyse un problème récurrent qui peut arriver dans un brasseur d’air. Il se peut que le vôtre ait le même problème. 
-				Dans ce cas vous auriez peut être la possibilité de faire quelques euros d’économie en suivant attentivement les instructions dans ce tutoriel. 
-				</p>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/z5304Brs-Uw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/z5304Brs-Uw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<p>
+					Je rappel :
+						<ul type="i">
+							<li>
+								Avant manipulation, veiller à décharger les condensateurs. Il y’a un risque d’électrisation car la charge n’est pas visible à l’oeil nu. Il est possible de la contrôler avec un vérificateur d’absence de tension / voltmètre.
+							</li>
+							<li style="color: red">
+								Le condensateur de démarrage ne doit jamais être utiliser à la place d'un condensateur permanent car il risque d’exploser.
+							</li>
+						</ul>
 
-				<p>
-				Je rappel :
-					<ul type="i">
-						<li>
-							Avant manipulation, veiller à décharger les condensateurs. Il y’a un risque d’électrisation car la charge n’est pas visible à l’oeil nu. Il est possible de la contrôler avec un vérificateur d’absence de tension / voltmètre.
-						</li>
-						<li style="color: red">
-							Le condensateur de démarrage ne doit jamais être utiliser à la place d'un condensateur permanent car il risque d’exploser.
-						</li>
-					</ul>
-
-				Achetez le condensateur de rechange utilisé dans la vidéo <a href="https://www.amazon.fr/Moteur-Polypropyl%C3%A8ne-D%C3%A9marrer-Ex%C3%A9cuter-Condensateur/dp/B01DLSLF10/ref=pd_sbs_1/258-4878816-8702253?pd_rd_w=cchCV&pf_rd_p=cc1ddc45-aafe-4cc5-be1c-84cb4055aee9&pf_rd_r=59QC2BM39MPY1ZQX6XBE&pd_rd_r=f45dbada-ed83-4865-a303-a825daee4018&pd_rd_wg=9c7iv&pd_rd_i=B01DLSLF10&psc=1#customerReviews" target="_blank">ici</a>
-				</p>
-		</div><hr>	
-<!-- //////////////////////////////////////////////////EXP 3/////////////////////////////////////////////////////////////////////// -->
+					Achetez le condensateur de rechange utilisé dans la vidéo <a href="https://www.amazon.fr/Moteur-Polypropyl%C3%A8ne-D%C3%A9marrer-Ex%C3%A9cuter-Condensateur/dp/B01DLSLF10/ref=pd_sbs_1/258-4878816-8702253?pd_rd_w=cchCV&pf_rd_p=cc1ddc45-aafe-4cc5-be1c-84cb4055aee9&pf_rd_r=59QC2BM39MPY1ZQX6XBE&pd_rd_r=f45dbada-ed83-4865-a303-a825daee4018&pd_rd_wg=9c7iv&pd_rd_i=B01DLSLF10&psc=1#customerReviews" target="_blank">ici</a>
+					</p>
+			</div><hr>	
+			<div><!--Expérience 3-->
 			<div class="gen_solar">
 
 					<h1 class="experience_title">Générateur solaire</h1>
@@ -761,6 +751,7 @@
 			 		<iframe width="560" height="315" src="https://www.youtube.com/embed/2u35GKog7t0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			 	</p>
 			 </div>
+			</div>
 </main>
 	<footer>
 		<a style="color: yellow" href="mailto:fredostarnlsa@yahoo.fr, lionel.nzm@yahoo.com">Contact</a>
