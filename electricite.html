@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ELECTRONINZ</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content= "width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="top_picture"> 
+			<div style="text-align: center"><img src="onthetop.png" width="262px" height="79px"></div>
+			<div class="progress_container">
+				<div class="progress_bar" id="mybar"></div>
+			</div>
+		</div>
+	</header>
+<div class="farmer_box">	
+	<p >Bienvenue !</br>Ici, je partage avec vous mes réalisations.</p>
+</div>	
+<main style="padding-left:100px; padding-right:100px">			
+			<div> <!--Expérience 2-->
+					<p style="text-align: center;font-weight:normal;">
+				<a href="automatisme.html">Automatisme</a><br/><br/><a href="index.html">Electronique</a></p>
+					<h1 class="experience_title">Brasseur d'air</h1>
+					<p>
+						L’été approche et ce sera bientôt l’heure de sortir les brasseurs d’airs.
+					Il se peut que le vôtre soit tombé en panne puis que vous l’avez jetté ou rangé dans votre garage en envisageant d’acheter un neuf. Dans cette expérience j’analyse un problème récurrent qui peut arriver dans un brasseur d’air. Il se peut que le vôtre ait le même problème. 
+					Dans ce cas vous auriez peut être la possibilité de faire quelques euros d’économie en suivant attentivement les instructions dans ce tutoriel. 
+					</p>
+
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/z5304Brs-Uw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+					<p>
+					Je rappel :
+						<ul type="i">
+							<li>
+								Avant manipulation, veiller à décharger les condensateurs. Il y’a un risque d’électrisation car la charge n’est pas visible à l’oeil nu. Il est possible de la contrôler avec un vérificateur d’absence de tension / voltmètre.
+							</li>
+							<li style="color: red">
+								Le condensateur de démarrage ne doit jamais être utiliser à la place d'un condensateur permanent car il risque d’exploser.
+							</li>
+						</ul>
+
+					Achetez le condensateur de rechange utilisé dans la vidéo <a href="https://www.amazon.fr/Moteur-Polypropyl%C3%A8ne-D%C3%A9marrer-Ex%C3%A9cuter-Condensateur/dp/B01DLSLF10/ref=pd_sbs_1/258-4878816-8702253?pd_rd_w=cchCV&pf_rd_p=cc1ddc45-aafe-4cc5-be1c-84cb4055aee9&pf_rd_r=59QC2BM39MPY1ZQX6XBE&pd_rd_r=f45dbada-ed83-4865-a303-a825daee4018&pd_rd_wg=9c7iv&pd_rd_i=B01DLSLF10&psc=1#customerReviews" target="_blank">ici</a>
+					</p>
+			</div><hr>	
+			<div>
+			<div class="gen_solar">
+
+					<h1 class="experience_title">Générateur solaire</h1>
+
+						<p> Dans ce projet on va réaliser un generateur à courant continu photovoltaïque. Pour cela on aura besoin de:
+
+							<ul>
+								<li>10 × modules solaires de 50mm × 50mm , caractéristiques du fabricant: 2V et 160mA </li>
+								<li>un cable 24 AWG de 3 mètres ici</li>
+								<li>Un support (n’importe lequel, pourvu qu’il soit assez rigide)</li>
+								<li>un fer à souder</li>
+							</ul>
+							Les mesures de tension et courant se font à l’aide d’un multimètre. <br/><br/> 
+
+							<b>NB:</b> Le watt mètre vu dans la vidéo permet de voir directement la valeur numérique de la puissance généré. Pour cela, il faut le connecter à une charge (load). Je me suis rendu compte que j’avais pas de charge, (°!°).	<br/><br/>
+
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/YzRS1PpN2jQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</p>
+						<p>
+							<b>Mesures en extérieurs</b>
+							<table id="measured">
+								<tr>
+									<td></td>
+									<td>Lumière tamisée</td>
+									<td>Lumière intense</td>
+								</tr>
+
+								<tr>
+									<td>Tension (volt)</td>
+									<td>11</td>
+									<td>11.8</td>
+								</tr>
+
+								<tr>
+									<td>Courant (milliampère)</td>
+									<td>69</td>
+									<td>200</td>
+								</tr>
+
+								<tr>
+									<td>Puissance (watt)</td>
+									<td>0,76</td>
+									<td>2,36</td>
+								</tr>
+							</table>
+						</p>
+			</div><hr>
+			<!--Expérience 3-->
+			 <div>
+			 	<h1 class="experience_title">Troubleshooting laptop charge cable</h1>
+			 	<p>Here we can try to fixe it through following process</p>
+			 	<p>
+			 		<iframe width="560" height="315" src="https://www.youtube.com/embed/2u35GKog7t0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			 	</p>
+			 </div>
+			</div>
+</main>
+	<footer>
+		<a style="color: yellow" href="mailto:fredostarnlsa@yahoo.fr, lionel.nzm@yahoo.com">Contact</a>
+	</footer>
+	<script> 
+	// When the user scrolls the page, execute myFunction
+		window.onscroll = function() {myFunction()};
+
+		function myFunction() {
+		  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+		  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+		  var scrolled = (winScroll / height) * 100;
+		  document.getElementById("mybar").style.width = scrolled + "%";
+	}
+	</script>
+</body>
+</html>

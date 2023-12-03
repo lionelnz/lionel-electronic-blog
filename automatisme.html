@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ELECTRONINZ</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content= "width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="top_picture"> 
+			<div style="text-align: center"><img src="onthetop.png" width="262px" height="79px"></div>
+			<div class="progress_container">
+				<div class="progress_bar" id="mybar"></div>
+			</div>
+		</div>
+	</header>
+<div class="farmer_box">	
+	<p >Bienvenue !</br>Ici, je partage avec vous mes réalisations.</p>
+</div>	
+<main style="padding-left:100px; padding-right:100px">
+		<div> <!-- automatisme : simulation 1-->
+			<p style="text-align: center;font-weight:normal;">
+				<a href="electricite.html">Electricité</a><br/><br/><a href="index.html">Electronique</a>
+			</p>
+		</div>
+</main>
+	<footer>
+		<a style="color: yellow" href="mailto:fredostarnlsa@yahoo.fr, lionel.nzm@yahoo.com">Contact</a>
+	</footer>
+	<script> 
+	// When the user scrolls the page, execute myFunction
+		window.onscroll = function() {myFunction()};
+
+		function myFunction() {
+		  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+		  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+		  var scrolled = (winScroll / height) * 100;
+		  document.getElementById("mybar").style.width = scrolled + "%";
+	}
+	</script>
+</body>
+</html>
